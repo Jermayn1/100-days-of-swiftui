@@ -26,10 +26,10 @@ Jeder Kurstag bekommt einen eigenen Ordner – vom ersten `let` bis zur fertigen
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset=".github/assets/progress-dark-compact.svg">
   <source media="(max-width: 600px)" srcset=".github/assets/progress-light-compact.svg">
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/progress-dark.svg">
-  <img src=".github/assets/progress-light.svg" width="100%" alt="Fortschritt: 4 von 100 Tagen geschafft">
+  <img src=".github/assets/progress-light.svg" width="100%" alt="Fortschritt: 5 von 100 Tagen geschafft">
 </picture>
 
-<p align="center"><b>Als Nächstes:</b> Tag 5 · <a href="https://www.hackingwithswift.com/100/swiftui/5">If, switch, and the ternary operator</a></p>
+<p align="center"><b>Als Nächstes:</b> Tag 6 · <a href="https://www.hackingwithswift.com/100/swiftui/6">Loops, summary, and checkpoint 3</a></p>
 <!-- progress:end -->
 
 ## Tages-Tracker
@@ -38,16 +38,16 @@ Alle 100 Tage, gegliedert wie im Kurs. Ein Tag wird automatisch abgehakt, sobald
 
 <!-- tracker:start -->
 <details open>
-<summary>🟠 <b>Swift-Grundlagen</b> · Tag 1–15 · 4/15</summary>
+<summary>🟠 <b>Swift-Grundlagen</b> · Tag 1–15 · 5/15</summary>
 
 | Tag | Thema | Erledigt |
 |:---:|:------|:------:|
-| 1 | [Variables, constants, strings, and numbers](https://www.hackingwithswift.com/100/swiftui/1) | [✅ 10.10.2026](Days/Day%20001%20%E2%80%93%20Variables%2C%20constants%2C%20strings%2C%20and%20numbers/ "Code von Tag 1") |
-| 2 | [Booleans, string interpolation, and checkpoint 1](https://www.hackingwithswift.com/100/swiftui/2) | [✅ 10.10.2026](Days/Day%20002%20%E2%80%93%20Booleans%2C%20string%20interpolation%2C%20and%20checkpoint%201/ "Code von Tag 2") |
-| 3 | [Arrays, dictionaries, sets, and enums](https://www.hackingwithswift.com/100/swiftui/3) | [✅ 10.10.2026](Days/Day%20003%20%E2%80%93%20Arrays%2C%20dictionaries%2C%20sets%2C%20and%20enums/ "Code von Tag 3") |
-| 4 | [Type annotations and checkpoint 2](https://www.hackingwithswift.com/100/swiftui/4) | [✅ 10.10.2026](Days/Day%20004%20%E2%80%93%20Type%20annotations%20and%20checkpoint%202/ "Code von Tag 4") |
-| 5 | [If, switch, and the ternary operator](https://www.hackingwithswift.com/100/swiftui/5) | 🟠 |
-| 6 | [Loops, summary, and checkpoint 3](https://www.hackingwithswift.com/100/swiftui/6) |  |
+| 1 | [Variables, constants, strings, and numbers](https://www.hackingwithswift.com/100/swiftui/1) | [✅ 04.10.2026](Days/Day%20001%20%E2%80%93%20Variables%2C%20constants%2C%20strings%2C%20and%20numbers/ "Code von Tag 1") |
+| 2 | [Booleans, string interpolation, and checkpoint 1](https://www.hackingwithswift.com/100/swiftui/2) | [✅ 04.10.2026](Days/Day%20002%20%E2%80%93%20Booleans%2C%20string%20interpolation%2C%20and%20checkpoint%201/ "Code von Tag 2") |
+| 3 | [Arrays, dictionaries, sets, and enums](https://www.hackingwithswift.com/100/swiftui/3) | [✅ 07.10.2026](Days/Day%20003%20%E2%80%93%20Arrays%2C%20dictionaries%2C%20sets%2C%20and%20enums/ "Code von Tag 3") |
+| 4 | [Type annotations and checkpoint 2](https://www.hackingwithswift.com/100/swiftui/4) | [✅ 07.10.2026](Days/Day%20004%20%E2%80%93%20Type%20annotations%20and%20checkpoint%202/ "Code von Tag 4") |
+| 5 | [If, switch, and the ternary operator](https://www.hackingwithswift.com/100/swiftui/5) | [✅ 10.10.2026](Days/Day%20005%20%E2%80%93%20If%2C%20switch%2C%20and%20the%20ternary%20operator/ "Code von Tag 5") |
+| 6 | [Loops, summary, and checkpoint 3](https://www.hackingwithswift.com/100/swiftui/6) | 🟠 |
 | 7 | [Functions, part one](https://www.hackingwithswift.com/100/swiftui/7) |  |
 | 8 | [Default values, throwing functions, and checkpoint 4](https://www.hackingwithswift.com/100/swiftui/8) |  |
 | 9 | [Closures, passing functions into functions, and checkpoint 5](https://www.hackingwithswift.com/100/swiftui/9) |  |
