@@ -1,0 +1,47 @@
+name: Fortschritt aktualisieren
+
+# Läuft auf dem Branch, auf den gepusht wurde, und committet die aktualisierte
+# README dorthin – beim Merge in main ist der Fortschritt dann schon aktuell.
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "Days/**"
+      - ".github/progress/**"
+      - ".github/workflows/progress.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: progress-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      BRANCH: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0 # vollständige Historie → Datum je Tag
+
+      - name: README und Fortschrittskarten erzeugen
+        id: progress
+        run: python3 .github/progress/update_progress.py
+
+      - name: Änderungen committen
+        run: |
+          git add README.md .github/assets/
+          if git diff --cached --quiet; then
+            echo "Alles aktuell – nichts zu committen."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs(readme): Fortschritt aktualisiert (${{ steps.progress.outputs.done }}/100 Tage)"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"
