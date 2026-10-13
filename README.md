@@ -26,10 +26,10 @@ Jeder Kurstag bekommt einen eigenen Ordner – vom ersten `let` bis zur fertigen
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset=".github/assets/progress-dark-compact.svg">
   <source media="(max-width: 600px)" srcset=".github/assets/progress-light-compact.svg">
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/progress-dark.svg">
-  <img src=".github/assets/progress-light.svg" width="100%" alt="Fortschritt: 5 von 100 Tagen geschafft">
+  <img src=".github/assets/progress-light.svg" width="100%" alt="Fortschritt: 6 von 100 Tagen geschafft">
 </picture>
 
-<p align="center"><b>Als Nächstes:</b> Tag 6 · <a href="https://www.hackingwithswift.com/100/swiftui/6">Loops, summary, and checkpoint 3</a></p>
+<p align="center"><b>Als Nächstes:</b> Tag 7 · <a href="https://www.hackingwithswift.com/100/swiftui/7">Functions, part one</a></p>
 <!-- progress:end -->
 
 ## Tages-Tracker
@@ -38,7 +38,7 @@ Alle 100 Tage, gegliedert wie im Kurs. Ein Tag wird automatisch abgehakt, sobald
 
 <!-- tracker:start -->
 <details open>
-<summary>🟠 <b>Swift-Grundlagen</b> · Tag 1–15 · 5/15</summary>
+<summary>🟠 <b>Swift-Grundlagen</b> · Tag 1–15 · 6/15</summary>
 
 | Tag | Thema | Erledigt |
 |:---:|:------|:------:|
@@ -47,8 +47,8 @@ Alle 100 Tage, gegliedert wie im Kurs. Ein Tag wird automatisch abgehakt, sobald
 | 3 | [Arrays, dictionaries, sets, and enums](https://www.hackingwithswift.com/100/swiftui/3) | [✅ 07.10.2026](Days/Day%20003%20%E2%80%93%20Arrays%2C%20dictionaries%2C%20sets%2C%20and%20enums/ "Code von Tag 3") |
 | 4 | [Type annotations and checkpoint 2](https://www.hackingwithswift.com/100/swiftui/4) | [✅ 07.10.2026](Days/Day%20004%20%E2%80%93%20Type%20annotations%20and%20checkpoint%202/ "Code von Tag 4") |
 | 5 | [If, switch, and the ternary operator](https://www.hackingwithswift.com/100/swiftui/5) | [✅ 10.10.2026](Days/Day%20005%20%E2%80%93%20If%2C%20switch%2C%20and%20the%20ternary%20operator/ "Code von Tag 5") |
-| 6 | [Loops, summary, and checkpoint 3](https://www.hackingwithswift.com/100/swiftui/6) | 🟠 |
-| 7 | [Functions, part one](https://www.hackingwithswift.com/100/swiftui/7) |  |
+| 6 | [Loops, summary, and checkpoint 3](https://www.hackingwithswift.com/100/swiftui/6) | [✅ 13.10.2026](Days/Day%20006%20%E2%80%93%20Loops%2C%20summary%2C%20and%20checkpoint%203/ "Code von Tag 6") |
+| 7 | [Functions, part one](https://www.hackingwithswift.com/100/swiftui/7) | 🟠 |
 | 8 | [Default values, throwing functions, and checkpoint 4](https://www.hackingwithswift.com/100/swiftui/8) |  |
 | 9 | [Closures, passing functions into functions, and checkpoint 5](https://www.hackingwithswift.com/100/swiftui/9) |  |
 | 10 | [Structs, computed properties, and property observers](https://www.hackingwithswift.com/100/swiftui/10) |  |
