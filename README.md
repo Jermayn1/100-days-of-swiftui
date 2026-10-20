@@ -26,10 +26,10 @@ Jeder Kurstag bekommt einen eigenen Ordner – vom ersten `let` bis zur fertigen
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset=".github/assets/progress-dark-compact.svg">
   <source media="(max-width: 600px)" srcset=".github/assets/progress-light-compact.svg">
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/progress-dark.svg">
-  <img src=".github/assets/progress-light.svg" width="100%" alt="Fortschritt: 8 von 100 Tagen geschafft">
+  <img src=".github/assets/progress-light.svg" width="100%" alt="Fortschritt: 9 von 100 Tagen geschafft">
 </picture>
 
-<p align="center"><b>Als Nächstes:</b> Tag 9 · <a href="https://www.hackingwithswift.com/100/swiftui/9">Closures, passing functions into functions, and checkpoint 5</a></p>
+<p align="center"><b>Als Nächstes:</b> Tag 10 · <a href="https://www.hackingwithswift.com/100/swiftui/10">Structs, computed properties, and property observers</a></p>
 <!-- progress:end -->
 
 ## Tages-Tracker
@@ -38,7 +38,7 @@ Alle 100 Tage, gegliedert wie im Kurs. Ein Tag wird automatisch abgehakt, sobald
 
 <!-- tracker:start -->
 <details open>
-<summary>🟠 <b>Swift-Grundlagen</b> · Tag 1–15 · 8/15</summary>
+<summary>🟠 <b>Swift-Grundlagen</b> · Tag 1–15 · 9/15</summary>
 
 | Tag | Thema | Erledigt |
 |:---:|:------|:------:|
@@ -50,8 +50,8 @@ Alle 100 Tage, gegliedert wie im Kurs. Ein Tag wird automatisch abgehakt, sobald
 | 6 | [Loops, summary, and checkpoint 3](https://www.hackingwithswift.com/100/swiftui/6) | [✅ 13.10.2026](Days/Day%20006%20%E2%80%93%20Loops%2C%20summary%2C%20and%20checkpoint%203/ "Code von Tag 6") |
 | 7 | [Functions, part one](https://www.hackingwithswift.com/100/swiftui/7) | [✅ 18.10.2026](Days/Day%20007%20%E2%80%93%20Functions%2C%20parameters%2C%20and%20return%20values/ "Code von Tag 7") |
 | 8 | [Default values, throwing functions, and checkpoint 4](https://www.hackingwithswift.com/100/swiftui/8) | [✅ 19.10.2026](Days/Day%20008%20%E2%80%93%20Default%20values%2C%20throwing%20functions%2C%20and%20checkpoint%204/ "Code von Tag 8") |
-| 9 | [Closures, passing functions into functions, and checkpoint 5](https://www.hackingwithswift.com/100/swiftui/9) | 🟠 |
-| 10 | [Structs, computed properties, and property observers](https://www.hackingwithswift.com/100/swiftui/10) |  |
+| 9 | [Closures, passing functions into functions, and checkpoint 5](https://www.hackingwithswift.com/100/swiftui/9) | [✅ 20.10.2026](Days/Day%20009%20%E2%80%93%20Closures%2C%20passing%20functions%20into%20functions%2C%20and%20checkpoint%205/ "Code von Tag 9") |
+| 10 | [Structs, computed properties, and property observers](https://www.hackingwithswift.com/100/swiftui/10) | 🟠 |
 | 11 | [Access control, static properties and methods, and checkpoint 6](https://www.hackingwithswift.com/100/swiftui/11) |  |
 | 12 | [Classes, inheritance, and checkpoint 7](https://www.hackingwithswift.com/100/swiftui/12) |  |
 | 13 | [Protocols, extensions, and checkpoint 8](https://www.hackingwithswift.com/100/swiftui/13) |  |
